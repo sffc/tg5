@@ -1,0 +1,22 @@
+name: Publish Slides
+
+on:
+  push:
+    branches:
+      - main
+
+jobs:
+  publish:
+    runs-on: ubuntu-latest
+    steps:
+    - uses: actions/checkout@v4
+    - uses: ljharb/actions/node/install@main
+      name: 'nvm install lts/* && npm install'
+      with:
+        node-version: lts/*
+    - run: npm run build:slides
+    - name: Publish to gh-pages
+      uses: JamesIves/github-pages-deploy-action@v4
+      with:
+        branch: gh-pages
+        folder: build
