@@ -24,7 +24,7 @@ _color: #ffffff
 - As the web platform grows, proposals become larger and more complex.
 - **Thesis**: User research has become a critical tool to propel proposals forward by:
   - Breaking design deadlocks.
-  - Validating usability before committing to strict backward compatibility.
+  - Validating usability before locking in designs.
   - Ensuring global inclusivity for all developers and users.
 
 ---
@@ -60,14 +60,15 @@ _color: #ffffff
 ## Case 2: MessageFormat 2 - Demonstrating Readiness
 
 - MessageFormat 2 (MF2) aims for better expressivity and usability for localization.
-- Adding `Intl.MessageFormat` carries significant responsibility due to strict backward compatibility.
+- Adding `Intl.MessageFormat` is a permanent commitment, demanding high confidence in its design.
 - TC39 requested empirical evidence to demonstrate that MF2 meets the needs of web developers before full stabilization.
 
 ---
 
 ## MF2: The Process of Empirical Testing
 
-- Developed a custom web app: **MessageFormat Arena**.
+- Developed a custom web app, **MessageFormat Arena**, by the research team from **UC San Diego** (Shun Kashiwa et al.).
+- Powered by `mf2-tools` by **Luca Casonato** (a TC39 delegate) for editor features.
 - Conducted remote, browser-based think-aloud studies.
 - Targeted two distinct groups in the localization workflow:
   1. **Software Engineers** (writing messages).
