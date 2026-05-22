@@ -34,7 +34,7 @@ _color: #ffffff
 - `Date` is a long-standing pain point; Temporal fixes it but introduces new concepts.
 - A major challenge was naming types without time zones (e.g., `LocalDateTime` vs `CivilDateTime`).
 - Champions wanted to guide users away from unsafe use (Justin Grant's "think twice" strategy, Issue #707).
-- Community members debated various naming strategies, including "Plain", "Zoneless", and "Abstract".
+- Community members debated various naming strategies, including `Plain`, `Zoneless`, and `Abstract`.
 
 ---
 
@@ -56,7 +56,7 @@ _color: #ffffff
 
 ## Temporal: The Winner Is...
 
-- **"Plain"** won decisively in the community poll.
+- **`Plain`** won decisively in the community poll.
 - This led to the adoption of `PlainDate`, `PlainTime`, and `PlainDateTime`.
 - It demonstrated that community voice could directly resolve naming impasses.
 
