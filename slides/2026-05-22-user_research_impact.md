@@ -104,30 +104,22 @@ _color: #ffffff
 
 ---
 
-## MF2: Limitations and Learnings
+## MF2 Learnings & Future Scalability
 
-- Limited to 10 participants; missed testing Polish, Japanese, and Arabic.
-- How TG5 can improve future user studies:
+- The MF2 study was limited to 10 participants and missed testing Polish, Japanese, and Arabic.
+- Formal studies offer deep insights but are resource-intensive and hard to scale.
+- To improve future studies, TG5 can:
   - Build a standing pool of volunteer translators.
   - Leverage open-source partnerships for recruiting.
-  - Invest in reusable research infrastructure.
+  - Invest in reusable research infrastructure and tools.
   - Find lightweight ways to reach professional developers.
-
----
-
-## Synthesis: Strengths and Limitations
-
-- Moves discussions from committee opinions to real-world evidence.
-- Polls provide quick community input but risk selection bias and lack depth.
-- Formal studies offer deep insights but are resource-intensive and hard to scale.
-- Success requires investing in reusable research tools and volunteer networks.
 - A mature ecosystem of docs and tooling is as critical as the syntax itself.
 
 ---
 
-## Conclusion
+## Synthesis & Conclusion
 
-- User research is no longer just an afterthought in TC39.
-- It resolved the naming impasse in Temporal.
-- It demonstrated readiness and guided ecosystem priorities in MessageFormat 2.
+- User research is no longer an afterthought; it moves TC39 from committee opinions to real-world evidence.
+- Temporal resolved its naming impasse via polls, providing quick input but risking selection bias and lacking depth.
+- MessageFormat 2 demonstrated readiness and guided ecosystem priorities through a formal study.
 - By embracing user research, TC39 creates more robust, inclusive, and developer-friendly standards.
