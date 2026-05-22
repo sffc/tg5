@@ -22,7 +22,7 @@ _color: #ffffff
 
 - Historically, language design has often relied on committee consensus and expert opinion.
 - As the web platform grows, proposals become larger and more complex.
-- **Thesis**: User research has become a critical tool to propel proposals forward by:
+- User research has become a critical tool to propel proposals forward by:
   - Guiding design decisions.
   - Validating usability before locking in designs.
   - Ensuring global inclusivity for all developers and users.
@@ -32,7 +32,7 @@ _color: #ffffff
 ## Case 1: Temporal - The Naming Debate
 
 - `Date` is a long-standing pain point; Temporal fixes it but introduces new concepts.
-- **The Challenge**: Naming types without time zones (e.g., `LocalDateTime` vs `CivilDateTime`).
+- A major challenge was naming types without time zones (e.g., `LocalDateTime` vs `CivilDateTime`).
 - Champions wanted to guide users away from unsafe use (Justin Grant's "think twice" strategy, Issue #707).
 - Community members debated various naming strategies, including "Plain", "Zoneless", and "Abstract".
 
@@ -40,10 +40,10 @@ _color: #ffffff
 
 ## Temporal: Polling to Guide Design
 
-- **The Naming Challenge**: Selecting a prefix for types without time zones was contentious, with strong arguments for `Civil`, `Local`, and `Plain`.
-- **The Method**: To move forward, champions agreed on a shortlist and turned to the community via a structured Twitter poll.
-- **Poll Options**: `Plain`, `Civil`, `Naive`, `Floating`.
-- **Tying to Thesis**: This research **guided a critical design decision** by empowering the community to resolve a naming impasse, ensuring the final API resonated with developers.
+- Selecting a prefix for types without time zones was contentious, with strong arguments for `Civil`, `Local`, and `Plain`.
+- To move forward, champions agreed on a shortlist and turned to the community via a structured Twitter poll.
+- Options included `Plain`, `Civil`, `Floating`, and `Other` (Naive was considered but replaced by 'Other' in the final poll).
+- This research **guided a critical design decision** by empowering the community to resolve a naming impasse, ensuring the final API resonated with developers.
 
 ---
 
@@ -65,11 +65,11 @@ _color: #ffffff
 ## Temporal: Ensuring Global Inclusivity
 
 - To ensure Temporal worked well globally, champions interviewed developers of non-Gregorian calendar applications.
-- **Credit**: Interviews with developers like **Eze Fiszerman** (Hebrew calendar) and **Omid Rad** (Persian/Hijri calendars).
-- **Findings**:
+- They interviewed developers like **Eze Fiszerman** (Hebrew calendar) and **Omid Rad** (Persian/Hijri calendars).
+- Key findings included:
   - Constant conversions and hacky workarounds were needed in current APIs (e.g., looping to find month length).
   - Lunar calendars need manual corrections (moon sightings).
-- **Impact**: Confirmed the need for first-class support for operations directly in non-ISO calendars.
+- This confirmed the need for first-class support for operations directly in non-ISO calendars.
 
 ---
 
@@ -95,17 +95,17 @@ _color: #ffffff
 
 ## MF2: Findings that Guided the Path
 
-- **Friction Points**: Translators found `.match` (pattern matching) puzzling; engineers found lack of nested matching repetitive.
-- **Locale Edge Cases**: Uncovered issues with Turkish suffixes and Danish ordinals.
-- **Impact**: Proved that no static syntax can cover all global linguistic rules, validating MF2's **function registry** approach as essential for extensibility.
+- Translators found `.match` (pattern matching) puzzling; engineers found lack of nested matching repetitive.
+- The study uncovered issues with Turkish suffixes and Danish ordinals.
+- These findings proved that no static syntax can cover all global linguistic rules, validating MF2's **function registry** approach as essential for extensibility.
 
 ---
 
 ## Synthesis: How User Research Propels Proposals
 
-- **From Theory to Practice**: Moves discussions from committee opinions to real-world evidence.
-- **Empowering the Community**: Polls and interviews give direct voice to developers, ensuring the language serves them.
-- **Guiding Ecosystem Development**: Highlights that a good proposal needs a mature ecosystem (docs, tooling) as much as good syntax.
+- User research moves discussions from committee opinions to real-world evidence.
+- Polls and interviews give direct voice to developers, ensuring the language serves them.
+- It highlights that a good proposal needs a mature ecosystem (docs, tooling) as much as good syntax.
 
 ---
 
