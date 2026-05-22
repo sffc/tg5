@@ -112,6 +112,17 @@ _color: #ffffff
 
 ---
 
+## MF2: Limitations and Learnings
+
+- Limited to 10 participants; missed testing Polish, Japanese, and Arabic.
+- How TG5 can improve future user studies:
+  - Build a standing pool of volunteer translators.
+  - Leverage open-source partnerships for recruiting.
+  - Invest in reusable research infrastructure.
+  - Find lightweight ways to reach professional developers.
+
+---
+
 ## Conclusion
 
 - User research is no longer just an afterthought in TC39.
