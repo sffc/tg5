@@ -34,26 +34,33 @@ _color: #ffffff
 - `Date` has been a long-standing pain point in ECMAScript.
 - Temporal introduces a large, complex API to fix it.
 - **The Naming Impasse**: Champions were deadlocked on naming types without time zones (e.g., `LocalDateTime` vs `CivilDateTime` vs `PlainDateTime`).
-- Traditional debate couldn't resolve the tradeoff between discoverability and naming patterns.
+- Justin Grant suggested `PlainDateTime` to discourage accidental use over safer zoned types (Issue #707).
 
 ---
 
 ## Temporal: The Power of Community Polling
 
-- To break the deadlock, champions turned to the community via a structured Twitter poll.
-- Options were agreed upon by champions to avoid a free-for-all: **Plain**, **Civil**, **Naive**, **Floating**.
-- **Result**: "Plain" won decisively.
-- This direct community engagement broke the deadlock and led to the adoption of `PlainDate`, `PlainTime`, and `PlainDateTime`.
+- To break the deadlock, champions turned to the community via structured Twitter polls run by Justin Grant (Sept/Oct 2020).
+- Options were agreed upon by champions: **Plain**, **Civil**, **Naive**, **Floating**.
+- **Result**: "Plain" won decisively, as recorded in meeting minutes (Oct 15, 2020).
+
+---
+
+## Temporal: Poll Screenshots
+
+<img src="./assets/2026-05-22/Screenshot%202026-05-22%2008.10.42.png" width="400" />
+<img src="./assets/2026-05-22/Screenshot%202026-05-22%2008.10.55.png" width="400" />
 
 ---
 
 ## Temporal: Ensuring Global Inclusivity
 
-- To ensure Temporal worked well globally, champions interviewed developers of non-Gregorian calendar applications (Hebrew, Hijri, Persian).
+- To ensure Temporal worked well globally, champions interviewed developers of non-Gregorian calendar applications.
+- **Credit**: Interviews with developers like **Eze Fiszerman** (Hebrew calendar) and **Omid Rad** (Persian/Hijri calendars).
 - **Findings**:
-  - Constant conversions and hacky workarounds were needed in current APIs.
+  - Constant conversions and hacky workarounds were needed in current APIs (e.g., looping to find month length).
   - Lunar calendars need manual corrections (moon sightings).
-- **Impact**: Confirmed the need for first-class support for operations directly in non-ISO calendars, rather than treating them as second-class citizens.
+- **Impact**: Confirmed the need for first-class support for operations directly in non-ISO calendars.
 
 ---
 
