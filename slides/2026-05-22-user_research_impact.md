@@ -104,16 +104,6 @@ _color: #ffffff
 
 ---
 
-## Synthesis: Strengths and Limitations
-
-- Moves discussions from committee opinions to real-world evidence.
-- Polls provide quick community input but risk selection bias and lack depth.
-- Formal studies offer deep insights but are resource-intensive and hard to scale.
-- Success requires investing in reusable research tools and volunteer networks.
-- A mature ecosystem of docs and tooling is as critical as the syntax itself.
-
----
-
 ## MF2: Limitations and Learnings
 
 - Limited to 10 participants; missed testing Polish, Japanese, and Arabic.
@@ -122,6 +112,16 @@ _color: #ffffff
   - Leverage open-source partnerships for recruiting.
   - Invest in reusable research infrastructure.
   - Find lightweight ways to reach professional developers.
+
+---
+
+## Synthesis: Strengths and Limitations
+
+- Moves discussions from committee opinions to real-world evidence.
+- Polls provide quick community input but risk selection bias and lack depth.
+- Formal studies offer deep insights but are resource-intensive and hard to scale.
+- Success requires investing in reusable research tools and volunteer networks.
+- A mature ecosystem of docs and tooling is as critical as the syntax itself.
 
 ---
 
