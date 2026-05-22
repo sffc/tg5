@@ -56,9 +56,12 @@ _color: #ffffff
 
 ## Temporal: The Winner Is...
 
-- **`Plain`** won decisively in the community poll.
-- This led to the adoption of `PlainDate`, `PlainTime`, and `PlainDateTime`.
+- **`Plain`** won decisively in the community poll, leading to the adoption of `PlainDate`, `PlainTime`, and `PlainDateTime`.
 - It demonstrated that community voice could directly resolve naming impasses.
+- However, relying on a Twitter poll has downsides for language design:
+  - Selection bias toward active social media users and specific networks.
+  - No data on whether users actually understand the implications of the choice.
+- This ad-hoc approach paved the way for more formal, empirical studies discussed later.
 
 ---
 
