@@ -34,17 +34,16 @@ _color: #ffffff
 - `Date` is a long-standing pain point; Temporal fixes it but introduces new concepts.
 - **The Challenge**: Naming types without time zones (e.g., `LocalDateTime` vs `CivilDateTime`).
 - Champions wanted to guide users away from unsafe use (Justin Grant's "think twice" strategy, Issue #707).
-- Community members debated "negative" names (like `Plain` or `Zoneless`) vs. positive ones (like `Abstract`).
+- Community members debated various naming strategies, including "Plain", "Zoneless", and "Abstract".
 
 ---
 
-## Temporal: Alternatives & Community Resolution
+## Temporal: Polling to Guide Design
 
-- **Alternatives Considered**:
-  - **Civil**: Strong contender, but found confusing by some.
-  - **Local**: Rejected as too similar to "Locale" for non-native speakers.
-  - **Naive**: Used in Python, but raised inclusivity concerns.
-- To resolve the debate, champions agreed on a shortlist and ran a Twitter poll: **Plain**, **Civil**, **Naive**, **Floating**.
+- **The Naming Challenge**: Selecting a prefix for types without time zones was contentious, with strong arguments for `Civil`, `Local`, and `Plain`.
+- **The Method**: To move forward, champions agreed on a shortlist and turned to the community via a structured Twitter poll.
+- **Poll Options**: `Plain`, `Civil`, `Naive`, `Floating`.
+- **Tying to Thesis**: This research **guided a critical design decision** by empowering the community to resolve a naming impasse, ensuring the final API resonated with developers.
 
 ---
 
