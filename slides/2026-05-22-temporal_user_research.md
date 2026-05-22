@@ -66,6 +66,16 @@ _color: #ffffff
   - **Naive**
   - **Floating**
 - This was a direct attempt to gather broad community feedback on a contentious design choice.
+- Links to the polls:
+  - [Poll Thread](https://x.com/justingrantjg/status/1308619968632688640)
+  - [Poll Results](https://x.com/justingrantjg/status/1316190780373958656)
+
+---
+
+## Poll Screenshots
+
+![Poll Thread](./2026-05-22-assets/Screenshot%202026-05-22%2008.10.42.png)
+![Poll Results](./2026-05-22-assets/Screenshot%202026-05-22%2008.10.55.png)
 
 ---
 
