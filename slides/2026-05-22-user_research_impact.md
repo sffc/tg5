@@ -23,26 +23,28 @@ _color: #ffffff
 - Historically, language design has often relied on committee consensus and expert opinion.
 - As the web platform grows, proposals become larger and more complex.
 - **Thesis**: User research has become a critical tool to propel proposals forward by:
-  - Breaking design deadlocks.
+  - Guiding design decisions.
   - Validating usability before locking in designs.
   - Ensuring global inclusivity for all developers and users.
 
 ---
 
-## Case 1: Temporal - Breaking Deadlocks
+## Case 1: Temporal - The Naming Debate
 
-- `Date` has been a long-standing pain point in ECMAScript.
-- Temporal introduces a large, complex API to fix it.
-- **The Naming Impasse**: Champions were deadlocked on naming types without time zones (e.g., `LocalDateTime` vs `CivilDateTime` vs `PlainDateTime`).
-- Justin Grant suggested `PlainDateTime` to discourage accidental use over safer zoned types (Issue #707).
+- `Date` is a long-standing pain point; Temporal fixes it but introduces new concepts.
+- **The Challenge**: Naming types without time zones (e.g., `LocalDateTime` vs `CivilDateTime`).
+- Champions wanted to guide users away from unsafe use (Justin Grant's "think twice" strategy, Issue #707).
+- Community members debated "negative" names (like `Plain` or `Zoneless`) vs. positive ones (like `Abstract`).
 
 ---
 
-## Temporal: The Power of Community Polling
+## Temporal: Alternatives & Community Resolution
 
-- To break the deadlock, champions turned to the community via structured Twitter polls run by Justin Grant (Sept/Oct 2020).
-- Options were agreed upon by champions: **Plain**, **Civil**, **Naive**, **Floating**.
-- **Result**: "Plain" won decisively, as recorded in meeting minutes (Oct 15, 2020).
+- **Alternatives Considered**:
+  - **Civil**: Strong contender, but found confusing by some.
+  - **Local**: Rejected as too similar to "Locale" for non-native speakers.
+  - **Naive**: Used in Python, but raised inclusivity concerns.
+- To resolve the debate, champions agreed on a shortlist and ran a Twitter poll: **Plain**, **Civil**, **Naive**, **Floating**.
 
 ---
 
@@ -50,6 +52,14 @@ _color: #ffffff
 
 <img src="./assets/2026-05-22/Screenshot%202026-05-22%2008.10.42.png" width="400" />
 <img src="./assets/2026-05-22/Screenshot%202026-05-22%2008.10.55.png" width="400" />
+
+---
+
+## Temporal: The Winner Is...
+
+- **"Plain"** won decisively in the community poll.
+- This led to the adoption of `PlainDate`, `PlainTime`, and `PlainDateTime`.
+- It demonstrated that community voice could directly resolve naming impasses.
 
 ---
 
@@ -103,6 +113,6 @@ _color: #ffffff
 ## Conclusion
 
 - User research is no longer just an afterthought in TC39.
-- It actively resolved deadlocks in Temporal.
+- It resolved the naming impasse in Temporal.
 - It demonstrated readiness and guided ecosystem priorities in MessageFormat 2.
 - By embracing user research, TC39 creates more robust, inclusive, and developer-friendly standards.
