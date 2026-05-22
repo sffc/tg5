@@ -74,8 +74,8 @@ _color: #ffffff
 
 ## Poll Screenshots
 
-![Poll Thread](./2026-05-22-assets/Screenshot%202026-05-22%2008.10.42.png)
-![Poll Results](./2026-05-22-assets/Screenshot%202026-05-22%2008.10.55.png)
+![Poll Thread](./assets/2026-05-22/Screenshot%202026-05-22%2008.10.42.png)
+![Poll Results](./assets/2026-05-22/Screenshot%202026-05-22%2008.10.55.png)
 
 ---
 

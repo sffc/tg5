@@ -3,7 +3,7 @@
   "name": "tg5",
   "description": "TC39 TG5 (Ecma402) repository",
   "scripts": {
-    "build:slides": "marp -I slides/ -o build/slides/"
+    "build:slides": "marp -I slides/ -o build/slides/ && cp -r slides/assets build/slides/"
   },
   "devDependencies": {
     "@marp-team/marp-cli": "^4.4.0"
