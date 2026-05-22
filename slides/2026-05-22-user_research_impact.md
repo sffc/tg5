@@ -104,11 +104,13 @@ _color: #ffffff
 
 ---
 
-## Synthesis: How User Research Propels Proposals
+## Synthesis: Strengths and Limitations
 
-- User research moves discussions from committee opinions to real-world evidence.
-- Polls and interviews give direct voice to developers, ensuring the language serves them.
-- It highlights that a good proposal needs a mature ecosystem (docs, tooling) as much as good syntax.
+- Moves discussions from committee opinions to real-world evidence.
+- Polls provide quick community input but risk selection bias and lack depth.
+- Formal studies offer deep insights but are resource-intensive and hard to scale.
+- Success requires investing in reusable research tools and volunteer networks.
+- A mature ecosystem of docs and tooling is as critical as the syntax itself.
 
 ---
 
