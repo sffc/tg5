@@ -137,3 +137,16 @@ _color: #ffffff
 - Polling gave the community a voice in naming.
 - Interviews ensured the API is robust for global use cases.
 - Temporal is a better API because of this engagement.
+
+---
+
+## Primary Sources
+
+- **GitHub Issue #707**: Bikeshedding name of LocalDateTime [Link](https://github.com/tc39/proposal-temporal/issues/707)
+- **Twitter Poll Thread**: Initial naming poll [Link](https://x.com/justingrantjg/status/1308619968632688640)
+- **Twitter Poll Results**: Final results [Link](https://x.com/justingrantjg/status/1316190780373958656)
+- **Meeting Minutes**:
+  - [Oct 1, 2020](https://github.com/tc39/proposal-temporal/blob/main/meetings/agenda-minutes-2020-10-01.md)
+  - [Oct 8, 2020](https://github.com/tc39/proposal-temporal/blob/main/meetings/agenda-minutes-2020-10-08.md)
+  - [Oct 15, 2020](https://github.com/tc39/proposal-temporal/blob/main/meetings/agenda-minutes-2020-10-15.md)
+- **Calendar Interviews**: Qualitative research [Link](https://docs.google.com/document/d/1ZTuBbtAHv6gShFiojM7qMJt6-GCIj8JVSsRrM8xJzDI/edit#heading=h.g97xe2z5n4tv)

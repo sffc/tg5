@@ -84,3 +84,11 @@ _color: #ffffff
 - It moved the discussion from theoretical design to real-world usability.
 - It guided the committee to focus on the ecosystem (functions and tooling) to ensure successful adoption.
 - MessageFormat 2 is a better, more grounded proposal because of this research.
+
+---
+
+## Primary Sources
+
+- **Google Presentation**: [MF2 User Study Update](https://docs.google.com/presentation/d/1BIjtIABOumWxh7CPNWT46HwMnYXsJ23GcCcR0LpXLwg/edit)
+- **Workshop Notes**: [TC39 106th Meeting Workshop](file:///usr/local/google/home/sffc/projects/tc39/tg5/workshops/2025/106.md)
+- **PDF Report**: [Think-aloud Study of MessageFormat 2](https://github.com/user-attachments/files/18527533/MF2.Report.012225.pdf)
