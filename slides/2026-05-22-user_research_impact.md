@@ -74,7 +74,7 @@ _color: #ffffff
 
 ## MF2: The Process of Empirical Testing
 
-- Developed a custom web app, **MessageFormat Arena**, by the research team from **UC San Diego** (Shun Kashiwa et al.).
+- Developed a custom web app, **MessageFormat Arena**, by the research team from **UC San Diego** (Shun Kashiwa et al., including faculty member Michael Coblenz).
 - Powered by `mf2-tools` by **Luca Casonato** (a TC39 delegate) for editor features.
 - Conducted remote, browser-based think-aloud studies.
 - Targeted two distinct groups in the localization workflow:
